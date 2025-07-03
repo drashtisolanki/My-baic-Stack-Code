@@ -68,6 +68,7 @@ int Display(){
 int main()
 {
   int choice, value;
+  printf("\n Please select the task number you wish to perform.\n 1.Push \n 2.pop \n 3.peek \n 4.isFull \n 5.isEmpty \n 6.Display \n ");
   while(1)
   {
      if(scanf("%d", &choice) != 1) 
