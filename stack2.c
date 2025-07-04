@@ -30,7 +30,7 @@ void pop()
     top--;
   }
 }
-// Check if stack is empty
+//check if stack is empty
 void isEmpty() {
     if (top == -1) 
     {
@@ -38,25 +38,23 @@ void isEmpty() {
     } 
     else 
     {
-        printf("The stack is not empty. Current size: %d\n",SIZE);
+        printf("The stack is not empty. Current size: %d\n",top + 1);
     }
 }
 
-// Check if stack is full
+//check if stack is full
 void isFull() {
     if (top == SIZE - 1) {
         printf("The stack is full.\n");
     } else {
-        printf("The stack is not full. Remaining capacity: %d\n",SIZE);
+        printf("The stack is not full. Remaining capacity: %d\n",SIZE - (top + 1);
     }
 }
 
-// Get current size of stack
+//current size of stack
 void size() {
     printf("Current size of stack: %d\n", top + 1);
 }
-
-// Main function to process commands
 int main()
 {
   int choice, value;
