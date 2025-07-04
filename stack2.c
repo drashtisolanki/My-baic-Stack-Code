@@ -47,7 +47,7 @@ void isFull() {
     if (top == SIZE - 1) {
         printf("The stack is full.\n");
     } else {
-        printf("The stack is not full. Remaining capacity: %d\n",SIZE - (top + 1);
+        printf("The stack is not full. Remaining capacity: %d\n",SIZE - (top + 1));
     }
 }
 
